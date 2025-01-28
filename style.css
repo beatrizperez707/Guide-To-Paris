@@ -1,0 +1,72 @@
+body {
+  background:pink;
+}
+p {
+  color:mediumvioletred;
+  font-size: 16px;
+  font-family:cursive;
+}
+
+/* start of h tags*/
+h1 {
+  font-weight: bold;
+  color:crimson;
+  text-align: center;
+  font-family:cursive;
+}
+h2{
+  font-weight: bold;
+  color:mediumvioletred;
+  text-align: left;
+  font-family:fantasy;
+}
+h3{
+  font-weight: bold;
+  color: crimson;
+  text-align: left;
+  font-family:cursive;
+}
+
+/*end of h tags*/
+
+img{
+  width: 200px;
+  height:`120px;
+  float:right;
+  border-width: 7px;
+  border-color: brown;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+/*style for links */
+a {
+  border-style: solid;
+  border-color:darkred; 
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  background-color:burlywood;
+}
+a:link {
+  font-size: 15px;
+  color:brown;
+  font-weight: bold;
+}
+
+a:hover {
+  color:brown;
+  background-color:coral;
+  font-size: 16px;
+  border-radius: 20px;
+}
+a:active {
+  color:violet;
+  text-decoration-color: lightpink;
+}
+.buttons {
+  text-align: center;
+  height: 40px;
+  margin: 20px;
+}
+/*end of style for links*/
